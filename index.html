@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PalettePop | Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Palette<span>Pop.</span></div>
+
+        <div class="nav-right">
+            <div class="nav-label">YOUR DAILY DOSE OF COLOR</div>
+
+            <button id="themeToggle" class="theme-toggle">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Dark Mode</span>
+            </button>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+            <p class="eyebrow">✦ CREATIVE COLOR STUDIO</p>
+            <h1>Colors that <span>click.</span></h1>
+            <p class="subtitle">
+                Discover beautiful color combinations.
+                Generate, save and explore your next favorite palette.
+            </p>
+
+            <div class="actions">
+                <button id="generateBtn" class="generate-btn">
+                    ✦ Generate Palette
+                </button>
+                <button id="saveBtn" class="save-btn">
+                    ♡ Save Palette
+                </button>
+                <span class="shortcut">OR PRESS SPACEBAR</span>
+            </div>
+        </section>
+
+        <section class="palette-section">
+            <div class="section-heading">
+                <h2>Your palette</h2>
+                <span id="paletteCount">05 COLORS</span>
+            </div>
+
+            <div class="palette-grid" id="paletteGrid">
+                <!-- Colors will be generated using JavaScript -->
+            </div>
+        </section>
+
+        <section class="favorites-section">
+            <div class="section-heading">
+                <h2>Your favorites</h2>
+                <button id="clearFavorites">Clear all</button>
+            </div>
+
+            <div id="favoritesContainer" class="favorites-container">
+                <p class="empty-message">
+                    No saved palettes yet. Find a combination you love!
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Made with creativity by PalettePop © 2026
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
