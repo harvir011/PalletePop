@@ -48,13 +48,13 @@ Built using Vanilla JavaScript, HTML5, and CSS3, the application combines a clea
 - Clipboard API — Copy HEX color codes.
 - LocalStorage API — Persistent favorites and theme preferences.
 
-## 📸 Screenshots
+## Screenshots
 
-Add your actual application screenshots here.
+### Light Mode
+![PalettePop Light Mode](screenshots/light-mode.png)
 
-| Light Mode | Dark Mode |
-|---|---|
-| `screenshots/light-mode.png` | `screenshots/dark-mode.png` |
+### Dark Mode
+![PalettePop Dark Mode](screenshots/dark-mode.png)
 
 ## 📂 Project Structure
 
